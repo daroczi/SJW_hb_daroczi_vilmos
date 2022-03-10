@@ -3,3 +3,42 @@
     --black: #000000;
     --blue: rgb(18, 112, 132);
 }
+
+html,
+body {
+    font-family: Cambria, "Times New Roman", serif;
+    overflow-x: hidden;
+}
+
+.top-header {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 600px;
+}
+
+.top-header h1 {
+    font-size: 5em !important;
+    letter-spacing: 2px !important;
+    color: var(--blue) !important;
+    text-transform: uppercase !important;
+}
+
+@media screen and (max-width: 768px) {
+    .top-header h1 {
+        font-size: 3em !important;
+    }
+}
+
+.top-header h2 {
+    font-size: 2em !important;
+    font-style: italic !important;
+    color: var(--blue) !important;
+}
+
+.head-box {
+    background-color: rgba(255,255,255,0.65);
+    padding: 10px 20px;
+    width: 100%;
+}
