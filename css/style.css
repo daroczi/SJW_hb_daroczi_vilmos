@@ -6,7 +6,7 @@
 
 html,
 body {
-    font-family: Cambria, "Times New Roman", serif;
+    font-family: Cambria, "Times New Roman", serif !important;
     overflow-x: hidden;
 }
 
@@ -41,4 +41,10 @@ body {
     background-color: rgba(255,255,255,0.65);
     padding: 10px 20px;
     width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: var(--blue) !important;
 }
