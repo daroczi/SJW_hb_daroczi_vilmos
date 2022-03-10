@@ -62,3 +62,8 @@ ul li {
 main h1 {
     font-variant: small-caps;
 }
+
+.shadow-type-1 {
+    -webkit-box-shadow: 2px 2px 5px 0px #000000; 
+box-shadow: 2px 2px 5px 0px #000000;
+}
