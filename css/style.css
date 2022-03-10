@@ -48,3 +48,17 @@ body {
 .navbar {
     background-color: var(--blue) !important;
 }
+
+/* UL */
+
+ul {
+  list-style-image: url('../img/icon.png');
+}
+
+ul li {
+    line-height: 25px !important;
+}
+
+main h1 {
+    font-variant: small-caps;
+}
